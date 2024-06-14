@@ -1,0 +1,216 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: Arial, sans-serif;
+	background: url('/img/teamwork-hands.jpg') no-repeat center center/cover;
+	
+}
+
+/* header begins */
+.header{
+	display:flex;
+	justify-content: space-between;
+	background:green;
+	height:7vh;
+	color: #ddd;
+}
+.header:hover{
+	border-bottom:.1rem solid #000;
+}
+.header-title{
+	margin-left: 1rem;
+	display: flex;
+	align-items: center;
+}
+.text-primary{
+	color:#000;
+	font-size:1rem;
+}
+	
+
+.navbar{
+	display:inline-flex;
+	align-items: center;
+}
+.navbar a {
+	padding: .2rem 2rem;
+	text-decoration: none;
+	color:#ddd;
+	font-size: 1.2rem;
+	margin-right: .2rem;	
+	border: none;
+	border-radius: 10px;
+}
+.navbar a:hover{
+	opacity:.9;
+	background: #000;
+	
+}
+
+/* header ends*/
+
+/*  */
+.container{
+	height: 90vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items:center;
+}
+.text-welcome-team{
+	font-size: 5rem;
+	color: yellow;
+
+}
+.text-greet{
+	font-size: 5rem;
+	color:#fff;
+	opacity:.9;
+}
+.btn-container{
+	padding-top: 2rem;
+}
+.btn{
+	padding: 1rem 3rem;
+	background: green;
+	text-decoration:none;
+	font-size: 1.5rem;
+	color: #f3f3f3;
+	border-radius:.8rem;
+}
+
+/* signup page */
+.form-signup{
+	border: 1px solid green;
+	padding: 3rem 1rem;
+	background: green;
+	opacity:0.9;
+	border-radius: .8rem;
+}
+.form-title{
+	padding-bottom: 2rem;
+	color:yellow;
+	opacity: 0.8;
+	text-align:center;
+}
+.message-alert{
+	color:yellow;
+	text-align: center;
+}
+.form-group{
+	display: flex;
+	flex-direction:column;
+}
+.form-label{
+	font-size: .7rem;
+}
+.form-input{
+	height:2.5rem;
+	margin-bottom: 1rem;
+	padding-left:.5rem;
+}
+
+.form-btn{
+	display:flex;
+	justify-content:space-around;
+}
+
+
+.btn-submit,
+.btn-reset{
+	padding: .5rem 2rem;
+	border:none;
+	border-radius: 0.8rem;
+	background: white;
+	color:black;
+}
+
+.btn-submit:hover,
+.btn-reset:hover{
+	background: black;
+	color:white;
+}
+
+.message-info{
+	font-size: .7rem;
+	text-align:center;
+	padding-top:.5rem;
+	font-style: italic;
+}
+
+/* signup-page ends  */
+
+/* login-page begins  */
+.form-login{
+	background:lightblue;
+	
+}
+.form-login>.form-title{
+	color:#000;
+}
+
+/* dashboard begins */
+.form-dashboard{
+	display: flex;
+	flex-direction: column;
+	background: #043f2e;
+	color: #ddd;
+	opacity: .8;
+	justify-content: center;
+	align-items: center;
+	border-radius: .8rem;
+}
+.dashboard-id{
+	background: none;
+	color:#ddd;
+	border: none;
+}
+.profile-image{
+	width:3rem;
+}
+
+footer{
+	height:3vh;
+	background: green;
+	text-align: center;
+	width: 100%;
+}
+
+
+
+
+
+
+
+@media(max-width:500px){
+	.header{
+		flex-direction: column;
+		height: 20vh;
+	}
+	.header-title{
+		text-align: center;
+	}
+	.navbar{
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	width:100%;}
+	.navbar a {
+		width:100%;
+		text-align: center;
+	}
+	
+	.container{
+		height:60vh;
+	}
+	
+	footer{
+		height:20vh;
+	}
+	
+
+ }
