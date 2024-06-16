@@ -12,7 +12,7 @@
 <header class="header">
 	<h1 class="header-title">MAHARJAN <span class="text-primary">WORKS</span></h1>
 	<div class="navbar">
-		<a href="signup">Signup</a>
+		<a href="signupEmployee">Signup</a>
 		<a href="index">Home</a>
 	</div>
 </header>
