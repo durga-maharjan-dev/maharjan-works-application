@@ -73,10 +73,7 @@ public class EmployeeController {
 		return "employee-update";
 	}
 	
-	
-	// for updating first let's 
-	
-	
+
 	@GetMapping("/findEmployeeById")
 	public String getFindEmployeeById() {
 		return "employee-by-id";
@@ -102,13 +99,10 @@ public class EmployeeController {
 	
 	@GetMapping("/viewAll")
 	public String viewAll(Model model) {
-		List<EmployeeDTO> dtos =this.employeeService.getAllEmployees();
-		model.addAttribute("dtos", dtos);
+		List<EmployeeDTO> dtoList =this.employeeService.getAllEmployees();
+		model.addAttribute("dtoList", dtoList);
 		return"employee-all";
 	}
-	
-	
-	
 	
 	//getting login page
 	@GetMapping("/loginEmployee")
@@ -123,8 +117,7 @@ public class EmployeeController {
 		EmployeeDTO employeeDTO = this.employeeService.authenticateEmployee(dto);
 		
 		if (employeeDTO != null) {
-			
-			 String profileImage = Base64.getEncoder().encodeToString(employeeDTO.getProfileImage());
+			String profileImage = Base64.getEncoder().encodeToString(employeeDTO.getProfileImage());
 			model.addAttribute("dto", employeeDTO);
 			model.addAttribute("profileImage", profileImage);
 			return "employee-dashboard";

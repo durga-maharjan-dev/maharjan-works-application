@@ -173,6 +173,25 @@ body{
 	width:3rem;
 }
 
+/* view-all  */
+.container-view-all{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 10px;
+}
+table{
+	background: green;
+	opacity: 0.9;
+	padding: .8rem;
+	border-radius:.8rem;
+}
+
+
+.table-title{
+	margin-bottom: 1rem;
+}
+
 footer{
 	height:3vh;
 	background: green;
