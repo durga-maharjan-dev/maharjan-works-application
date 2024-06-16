@@ -17,7 +17,7 @@
 				<th>Last Name</th>
 				<th>Email</th>
 				<th>Password</th>
-				<th> Profile Image</th>		
+				<th>Profile Image</th>		
 			</tr>
 		</thead>
 
