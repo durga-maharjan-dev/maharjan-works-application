@@ -5,7 +5,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Kubeiko | All Employee</title>
+<title>MaharjanWorks | All Employee</title>
 </head>
 <body>
 

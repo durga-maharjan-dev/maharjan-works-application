@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Junit Application</title>
+<title>MaharjanWorks</title>
 <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>

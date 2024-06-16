@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>JUNIT | Signup</title>
+<title>MaharjanWorks | Signup</title>
 <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
